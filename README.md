@@ -1,5 +1,12 @@
 # Основы работы с Git
 
+## правим .gitconfig
+```
+git config --global user.name "Victor G. Krivulets"
+```
+```
+git config --global user.email victor.krivulets@yandex.ru
+```
 ### создаем папку для локального репозитория
 ```
 mkdir second-project
@@ -9,6 +16,10 @@ mkdir second-project
 git init
 ```
 ### добавляем файл в репозиторий
+```
+git add имя_файла
+```
+### добавляем все файлы в репозиторий
 ```
 git add --all
 ```
@@ -27,6 +38,10 @@ git push -u origin master
 ### далее для всех последующих пушей выполняем
 ```
 git push
+```
+### посмотреть историю коммитов
+```
+git log
 ```
 
 
