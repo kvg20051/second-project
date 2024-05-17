@@ -12,8 +12,10 @@ git add --all
 ```
 git commit -m 'changed README.md'
 ```
-
-
+### добавляем удаленный репозиторий
+```
+git remote add origin git@github.com:kvg20051/second-project.git
+```
 
 ## Выделение текста
 
