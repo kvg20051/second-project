@@ -23,6 +23,9 @@ git add имя_файла
 ```
 git add --all
 ```
+```
+git add .
+```
 ### добавляем файл в репозиторий
 ```
 git commit -m 'changed README.md'
