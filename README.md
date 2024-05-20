@@ -43,6 +43,20 @@ git push
 ```
 git log
 ```
+```
+git log --oneline
+```
+### создать новую ветку
+```
+git branch new_branch
+```
+### перейти в ветку new_branch
+```
+git checkout new_branch
+```
+
+
+
 
 
 
