@@ -2,7 +2,7 @@
 
 ## правим .gitconfig
 ```
-git config --global user.name "Victor G. Krivulets"
+git config --global user.name 'Victor G. Krivulets'
 ```
 ```
 git config --global user.email victor.krivulets@yandex.ru
@@ -57,6 +57,15 @@ git branch new_branch
 ```
 git checkout new_branch
 ```
+### SSH-keys github.com
+```
+ssh -T git@github.com
+```
+### SSH-keys gitea
+```
+???
+```
+
 
 
 
