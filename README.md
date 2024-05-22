@@ -57,6 +57,17 @@ git branch new_branch
 ```
 git checkout new_branch
 ```
+### удалить ветку new_branch в локально репозитории
+```
+git push branch -d new_branch
+```
+### удалить ветку new_branch в удаленном репозитории
+```
+git push origin --delete new_branch
+```
+
+
+
 # SSH-keys
 
 ### SSH-keys github.com
