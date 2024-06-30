@@ -66,30 +66,10 @@ git push branch -d new_branch
 git push origin --delete new_branch
 ```
 
-
-
 # SSH-keys
 
 ### SSH-keys github.com
-```
-ssh -T git@github.com
-```
-### SSH-keys gitea
-```
-???
-```
-# Mermaid
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
-
 To push to GitLab using SSH keys and avoid entering a password, you need to set up SSH keys and configure GitLab to recognize your public key. Here are the steps to do that:
-
 ### Step 1: Generate SSH Keys
 
 1. Open your terminal.
@@ -182,8 +162,6 @@ git push origin <your-branch-name>
 By following these steps, you should be able to push to GitLab using SSH keys without needing to enter a password each time.
 
 
-
-
 ## Выделение текста
 
 Вы можете выделять текст в markdown с помощью символов `_` или `*`. Например:
@@ -199,3 +177,12 @@ By following these steps, you should be able to push to GitLab using SSH keys wi
 ### Заголовок третьего уровня
 
 ## Выделение кода
+
+# Mermaid
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
